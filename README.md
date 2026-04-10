@@ -195,7 +195,7 @@
             <li>CSD Registration: MAAA1286141</li>
             <li>Valid Tax Clearance PIN: B825862DM </li>
             <li>B‑BBEE Sworn Affidavit (Level 1, 100% Black‑owned)</li>
-            <li>Company Registration: CK 2019/397268/07 (2019)</li>
+            <li>Company Registration: CK:2019/397268/07</li>
             <li>Commissioner of Oaths Certificate</li>
             <li> Information Officer</li>
         </ul>
