@@ -174,7 +174,7 @@
         <ul>
             <li>CSD Registration: MAAA1286141</li>
             <li>Valid Tax Clearance PIN</li>
-            <li>B‑BBEE Sworn Affidavit (Level 1, 51% Black‑owned)</li>
+            <li>B‑BBEE Sworn Affidavit (Level 1, 100% Black‑owned)</li>
             <li>Company Registration (2019)</li>
             <li>Commissioner of Oaths Certificate</li>
         </ul>
@@ -182,7 +182,7 @@
         <div class="contact">
             <h3 style="color:white;">📞 Let’s Work Together</h3>
             <p><strong>Manass Legodi, Founder & Commissioner of Oaths</strong><br>
-            📞 072 607 5698 | ✉️ <a href="mailto:thabo.mlegodi@gmail.com">[Email]</a> | 🔗 <a href="#">LinkedIn</a></p>
+            📞 072 607 5698 | ✉️ <a href="mailto:">thabo.mlegodi@gmail.com</a> | 🔗 <a href="#">www.linkedin.com/in/manass-legodi-09aa0060</a></p>
         </div>
         <div class="footer">
             Registered ICT supplier | Digital solutions | Commissioner of Oaths
