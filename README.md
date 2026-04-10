@@ -142,64 +142,72 @@
 <div class="container">
     <div class="header">
         <h1>LEGODI AND SON</h1>
-        <p>Custom ICT Solutions | ASP.NET Specialists | Public Sector Ready</p>
+        <p>Custom ICT Solutions | ASP.NET Specialists | Public Sector & Community Focused</p>
         <div class="badge">Commissioner of Oaths on staff</div>
     </div>
     <div class="content">
-        <p><strong>Founder:</strong> Manass Legodi– Commissioner of Oaths<br>
-        📞 072 607 5698 | ✉️ thabo.mlegodi@gmail.com | 🌐 www.legodiandson.co.za<br>
-        📌 CSD Registered | B‑BBEE Level 1 (EME) | Since 2019</p>
+        <p><strong>Registration No:</strong> 2019/397268/07 | <strong>Since 2019</strong> | <strong>B‑BBEE Level 1 (EME)</strong> | <strong>CSD Registered</strong><br>
+        <strong>Founder:</strong> Manass Legodi – Commissioner of Oaths<br>
+        📞 072 607 5698 | ✉️ thabo.mlegodi@gmail.com | 🌐 www.legodiandson.co.za</p>
 
         <h2>🔒 Digital Trust – What We Deliver</h2>
-        <p>We combine <strong>secure web development</strong>, <strong>proven community growth</strong>, and <strong>legal certification</strong> to help traditional councils, municipalities, and NGOs build trusted digital presences.</p>
+        <p>We combine <strong>secure web development (ASP.NET, C#, SQL Server, IIS)</strong>, <strong>proven large‑scale community engagement</strong>, and <strong>legal certification</strong> to help traditional councils, municipalities, NGOs, and public sector entities build trusted digital presences.</p>
 
-        <h2>✅ Flagship Achievement: Moletsi Traditional Council</h2>
+        <h2>📈 Representative Success (Anonymous Client)</h2>
+        <p><em>We never disclose client names without permission. This example illustrates our methodology and results.</em></p>
         <ul>
-            <li><strong>Custom ASP.NET website</strong> (C#, SQL Server, IIS) – role‑based admin, document library, event calendar.</li>
-            <li><strong>Facebook growth:</strong> 35,604 followers and <strong>2.5 million views in the last 90 days</strong>.</li>
-            <li><strong>Result:</strong> 40% fewer administrative queries, 99.9% website uptime.</li>
+            <li><strong>Custom ASP.NET website</strong> – role‑based admin dashboard, document library, event calendar, social media integration.</li>
+            <li><strong>Social media growth:</strong> Grew a Facebook page to <strong>35,604 followers</strong> and <strong>11 million reach in 7 months</strong> (average 1.57M/month).</li>
+            <li><strong>Operational impact:</strong> 40% reduction in administrative query handling, 99.9% website uptime.</li>
         </ul>
         <div class="highlight">
-            “Legodi and Son gave us a professional digital voice – and our community responded.”<br>
-            – Moletsi Council leadership (testimonial available)
+            “They gave us a professional digital voice – and our community responded.”<br>
+            – Anonymous client testimonial (available on request)
         </div>
+        <p><strong>We replicate this model for every client, adapting to their unique context.</strong></p>
 
-        <h2>💼 Core Services</h2>
+        <h2>💼 Core Services (Tailored to Your Needs)</h2>
         <div class="flex-cards">
-            <div class="card"><strong>Custom Web Development</strong><br>ASP.NET websites with CMS, user roles, document management<br><span style="color:#e67e22;">R45k – R120k (fixed)</span></div>
-            <div class="card"><strong>Social Media Management</strong><br>Content, engagement, growth (proven to 2.5M views)<br><span style="color:#e67e22;">R8k – R20k / month</span></div>
+            <div class="card"><strong>Custom Web Development</strong><br>ASP.NET websites with CMS, user roles, document management, social feeds<br><span style="color:#e67e22;">R45k – R120k (fixed)</span></div>
+            <div class="card"><strong>Social Media Management</strong><br>Content, engagement, growth (proven to 11M reach)<br><span style="color:#e67e22;">R8k – R20k / month</span></div>
             <div class="card"><strong>Digital Strategy & Consulting</strong><br>Roadmaps, platform selection, stakeholder training<br><span style="color:#e67e22;">R3k – R6k / day</span></div>
             <div class="card"><strong>Website Maintenance & Hosting</strong><br>IIS hosting, backups, security updates<br><span style="color:#e67e22;">R1.5k – R5k / month</span></div>
             <div class="card"><strong>Document Certification</strong><br>Commissioner of Oaths – affidavits, copies, declarations<br><span style="color:#e67e22;">R50 – R200 / document</span></div>
         </div>
 
-        <h2>🔑 Why Legodi and Son?</h2>
+        <h2>🔑 Why Organisations Choose Us</h2>
         <table>
-            <tr><th>Differentiator</th><th>Evidence</th></tr>
-            <tr><td>Live proof of work</td><td>Screenshots, archived website, active Facebook page (2.5M views)</td></tr>
-            <tr><td>Public sector experience</td><td>Direct council project + government HRIS analysis</td></tr>
-            <tr><td>Legal authority</td><td>Founder is registered Commissioner of Oaths – in‑house certification</td></tr>
-            <tr><td>Longevity</td><td>Registered since 2019 – meets 5‑year tender rule</td></tr>
-            <tr><td>B‑BBEE Level 1</td><td>51% Black‑owned – maximises your preferential procurement points</td></tr>
+            <thead>
+                <tr><th>Differentiator</th><th>What It Means for You</th></tr>
+            </thead>
+            <tbody>
+                <tr><td><strong>Proven at scale</strong></td><td>We have grown a Facebook page to 11M reach – we can do the same for you.</td></tr>
+                <tr><td><strong>Technical depth</strong></td><td>ASP.NET, SQL Server, IIS – enterprise‑grade, not templates.</td></tr>
+                <tr><td><strong>Public sector experience</strong></td><td>We understand governance, compliance, and tender processes.</td></tr>
+                <tr><td><strong>Legal authority</strong></td><td>Commissioner of Oaths – in‑house document certification, saving you time.</td></tr>
+                <tr><td><strong>Longevity & compliance</strong></td><td>Registered since 2019, B‑BBEE Level 1, CSD, tax clearance.</td></tr>
+                <tr><td><strong>Multiple clients, diverse sectors</strong></td><td>We work with councils, municipalities, NGOs, and small businesses – we are not dependent on any single client.</td></tr>
+            </tbody>
         </table>
 
         <h2>📎 Compliance & Tender Ready</h2>
         <ul>
             <li>CSD Registration: MAAA1286141</li>
-            <li>Valid Tax Clearance PIN</li>
-            <li>B‑BBEE Sworn Affidavit (Level 1)</li>
-            <li>Company Registration (2019)</li>
+            <li>Valid Tax Clearance PIN: B825862DM </li>
+            <li>B‑BBEE Sworn Affidavit (Level 1, 100% Black‑owned)</li>
+            <li>Company Registration: CK 2019/397268/07 (2019)</li>
             <li>Commissioner of Oaths Certificate</li>
+            <li> Information Officer</li>
         </ul>
 
         <div class="contact">
-            <h3 style="color:white; margin-top:0;">📞 Let’s Build Digital Trust Together</h3>
-            <p><em>We respond to tenders, direct inquiries, and partnership requests. Contact us for a free 30‑minute consultation.</em></p>
+            <h3 style="color:white; margin-top:0;">📞 Let’s Build Your Digital Trust</h3>
+            <p><em>We respond to tenders, direct inquiries, and partnership requests. Contact us for a free 30‑minute consultation – no obligation.</em></p>
             <p><strong>Manass Legodi, Founder & Commissioner of Oaths</strong><br>
             📞 072 607 5698 | ✉️ <a href="mailto:thabo.mlegodi@gmail.com">www.legodiandson.co.za</a> | 🔗 <a href="#">www.linkedin.com/in/manass-legodi-09aa0060</a></p>
         </div>
         <div class="footer">
-            “We don’t just build software – we build trust.”
+            “We don’t just build software – we build trust at scale, for multiple clients.”
         </div>
     </div>
 </div>
