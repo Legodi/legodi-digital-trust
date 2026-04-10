@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -146,8 +146,8 @@
         <div class="badge">Commissioner of Oaths on staff</div>
     </div>
     <div class="content">
-        <p><strong>Founder:</strong> [Your Full Name] – Commissioner of Oaths<br>
-        📞 [Your Phone] | ✉️ [Your Email] | 🌐 [Your website, if any]<br>
+        <p><strong>Founder:</strong> Manass Legodi– Commissioner of Oaths<br>
+        📞 072 607 5698 | ✉️ thabo.mlegodi@gmail.com | 🌐 www.legodiandson.co<br>
         📌 CSD Registered | B‑BBEE Level 1 (EME) | Since 2019</p>
 
         <h2>🔒 Digital Trust – What We Deliver</h2>
@@ -185,7 +185,7 @@
 
         <h2>📎 Compliance & Tender Ready</h2>
         <ul>
-            <li>CSD Registration: [Your MAAA number]</li>
+            <li>CSD Registration: MAAA1286141</li>
             <li>Valid Tax Clearance PIN</li>
             <li>B‑BBEE Sworn Affidavit (Level 1)</li>
             <li>Company Registration (2019)</li>
@@ -195,8 +195,8 @@
         <div class="contact">
             <h3 style="color:white; margin-top:0;">📞 Let’s Build Digital Trust Together</h3>
             <p><em>We respond to tenders, direct inquiries, and partnership requests. Contact us for a free 30‑minute consultation.</em></p>
-            <p><strong>[Your Name], Founder & Commissioner of Oaths</strong><br>
-            📞 [Your Phone] | ✉️ <a href="mailto:[Your Email]">[Your Email]</a> | 🔗 <a href="#">[Your LinkedIn URL]</a></p>
+            <p><strong>Manass Legodi, Founder & Commissioner of Oaths</strong><br>
+            📞 072 607 5698 | ✉️ <a href="mailto:thabo.mlegodi@gmail.com">www.legodiandson.co.za</a> | 🔗 <a href="#">www.linkedin.com/in/manass-legodi-09aa0060</a></p>
         </div>
         <div class="footer">
             “We don’t just build software – we build trust.”
