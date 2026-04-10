@@ -147,7 +147,7 @@
     </div>
     <div class="content">
         <p><strong>Founder:</strong> Manass Legodi– Commissioner of Oaths<br>
-        📞 072 607 5698 | ✉️ thabo.mlegodi@gmail.com | 🌐 www.legodiandson.co<br>
+        📞 072 607 5698 | ✉️ thabo.mlegodi@gmail.com | 🌐 www.legodiandson.co.za<br>
         📌 CSD Registered | B‑BBEE Level 1 (EME) | Since 2019</p>
 
         <h2>🔒 Digital Trust – What We Deliver</h2>
