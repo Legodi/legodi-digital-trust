@@ -1,8 +1,9 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Legodi and Son – Registered ICT Supplier</title>
+    <title>Manass Legodi – ASP.NET Developer & Legodi and Son</title>
     <style>
         * {
             margin: 0;
@@ -11,17 +12,17 @@
         }
         body {
             font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
-            background: #f5f7fa;
+            background: #f0f2f5;
             color: #1e2a3a;
             line-height: 1.5;
             padding: 2rem 1rem;
         }
         .container {
-            max-width: 1100px;
+            max-width: 1200px;
             margin: 0 auto;
             background: white;
-            border-radius: 24px;
-            box-shadow: 0 20px 35px -10px rgba(0,0,0,0.1);
+            border-radius: 28px;
+            box-shadow: 0 20px 40px -12px rgba(0,0,0,0.15);
             overflow: hidden;
         }
         .header {
@@ -31,8 +32,12 @@
             text-align: center;
         }
         .header h1 {
-            font-size: 2.2rem;
+            font-size: 2rem;
             margin-bottom: 0.25rem;
+        }
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
         }
         .badge {
             background: #e67e22;
@@ -44,18 +49,24 @@
         }
         .nav {
             background: #f8fafc;
-            padding: 1rem;
+            padding: 0.8rem;
             text-align: center;
             border-bottom: 1px solid #e2e8f0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
         }
         .nav a {
             color: #0a2b3e;
             text-decoration: none;
-            margin: 0 1rem;
             font-weight: 600;
+            padding: 0.3rem 0.8rem;
+            border-radius: 30px;
+            transition: background 0.2s;
         }
         .nav a:hover {
-            color: #e67e22;
+            background: #e2e8f0;
         }
         .content {
             padding: 2rem;
@@ -64,30 +75,51 @@
             color: #0a2b3e;
             border-left: 5px solid #e67e22;
             padding-left: 1rem;
-            margin: 1.5rem 0 1rem 0;
-            font-size: 1.5rem;
+            margin: 1.8rem 0 1rem 0;
+            font-size: 1.6rem;
         }
-        .service-grid {
+        h3 {
+            color: #2c3e50;
+            margin: 1.2rem 0 0.5rem 0;
+        }
+        .two-columns {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            margin: 1rem 0;
+        }
+        .col {
+            flex: 1;
+            min-width: 250px;
+        }
+        .service-grid, .project-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
             gap: 1.2rem;
             margin: 1.5rem 0;
         }
-        .service-card {
+        .card {
             background: #f8fafc;
-            border-radius: 12px;
+            border-radius: 16px;
             padding: 1rem;
             border: 1px solid #e2e8f0;
+            transition: transform 0.2s, box-shadow 0.2s;
         }
-        .service-card strong {
+        .card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+        }
+        .card strong {
             color: #0a2b3e;
             display: block;
-            margin-bottom: 0.4rem;
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
         }
         table {
             width: 100%;
             border-collapse: collapse;
             margin: 1rem 0;
+            font-size: 0.9rem;
         }
         th, td {
             border: 1px solid #cbd5e1;
@@ -97,6 +129,7 @@
         }
         th {
             background: #eef2f5;
+            font-weight: 600;
         }
         .highlight {
             background: #fef9e6;
@@ -114,78 +147,203 @@
         }
         .contact a {
             color: #f39c12;
+            text-decoration: none;
         }
         .footer {
             text-align: center;
             padding: 1.5rem;
             font-size: 0.8rem;
             border-top: 1px solid #e2e8f0;
+            color: #5a6874;
+        }
+        .button {
+            display: inline-block;
+            background: #e67e22;
+            color: white;
+            padding: 0.4rem 1rem;
+            border-radius: 30px;
+            text-decoration: none;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-top: 0.5rem;
+        }
+        @media (max-width: 700px) {
+            .content {
+                padding: 1.2rem;
+            }
+            th, td {
+                display: block;
+                width: 100%;
+            }
+            tr {
+                margin-bottom: 1rem;
+                display: block;
+                border: 1px solid #cbd5e1;
+            }
         }
     </style>
 </head>
 <body>
 <div class="container">
     <div class="header">
-        <h1>LEGODI AND SON</h1>
-        <p>Registered ICT Supplier | Digital Solutions | Commissioner of Oaths</p>
-        <div class="badge">B‑BBEE Level 1 (EME) | CSD Registered | Since 2019</div>
+        <h1>Manass Legodi</h1>
+        <p>ASP.NET Developer | ICT Solutions Architect | Founder, Legodi and Son</p>
+        <div class="badge">Commissioner of Oaths | 11M Facebook Reach | B‑BBEE Level 1</div>
     </div>
     <div class="nav">
-        <a href="index.html">Home</a>
-        <a href="portfolio.html">Portfolio</a>
+        <a href="#">Profile</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#services">Services</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
     </div>
     <div class="content">
-        <p><strong>Registration No:</strong> CK:2019/397268/07 | <strong>Founder:</strong> Manass Legodi – Commissioner of Oaths<br>
-        📞 072 607 5698 | ✉️ thabo.mlegodi@gmail.com | 🌐 www.legodiandson.co.za</p>
-
-        <h2>🔒 What We Do – Full ICT Services</h2>
-        <div class="service-grid">
-            <div class="service-card"><strong>📡 ICT Supply & Consulting</strong><br>Registered ICT supplier for public sector. Tender-ready. Digital transformation roadmaps.</div>
-            <div class="service-card"><strong>💻 Custom Web Development</strong><br>ASP.NET, C#, SQL Server, IIS – secure, scalable websites and portals.</div>
-            <div class="service-card"><strong>📱 Social Media Management</strong><br>Content creation, community engagement, growth (proven 11M reach).</div>
-            <div class="service-card"><strong>🎓 Digital Strategy & Training</strong><br>Stakeholder training, platform selection, analytics setup.</div>
-            <div class="service-card"><strong>⚖️ Legal Documentation</strong><br>Commissioner of Oaths – affidavits, certified copies, statutory declarations.</div>
-            <div class="service-card"><strong>🖥️ Website Maintenance & Hosting</strong><br>IIS hosting, daily backups, security updates, 99.9% uptime SLA.</div>
-            <div class="service-card"><strong>📋 ICT Project Management</strong><br>End‑to‑end delivery from requirements to deployment.</div>
-        </div>
-
-        <h2>📈 Representative Success (Anonymous Client)</h2>
-        <ul>
-            <li><strong>Custom ASP.NET website</strong> – admin dashboard, document library, event calendar.</li>
-            <li><strong>Social media growth:</strong> 35,604 followers, <strong>11 million reach in 7 months</strong> (1.57M/month).</li>
-            <li><strong>Operational impact:</strong> 40% reduction in query handling, 99.9% uptime.</li>
-        </ul>
+        <!-- PERSONAL SUMMARY -->
+        <h2>👤 Personal Profile</h2>
+        <p><strong>Full‑stack developer with 10+ years experience (since 2015).</strong> Proven track record in ASP.NET, C#, SQL Server, IIS. Built and deployed multiple custom web applications: school learner‑teacher portal, restaurant ordering system, and official council website. Registered ICT hardware supplier, computer repair technician, and Commissioner of Oaths. Grew a Facebook page to <strong>35,604 followers</strong> and <strong>11 million reach in 7 months</strong>. BTEC IT qualified. Seeking senior developer or ICT project manager role (R75k–R90k/month).</p>
+        
         <div class="highlight">
-            “They gave us a professional digital voice – and our community responded.”<br>
-            – Anonymous client (testimonial available)
+            📢 <strong>Key achievement:</strong> 11 million organic reach on Facebook – proof of scalable community engagement and digital strategy.
         </div>
 
-        <h2>🔑 Why Organisations Choose Legodi & Son</h2>
+        <div class="two-columns">
+            <div class="col">
+                <h3>Technical Skills</h3>
+                <ul>
+                    <li>ASP.NET (Web Forms, MVC), C#, SQL Server, IIS</li>
+                    <li>School portals, restaurant ordering systems, document repositories</li>
+                    <li>KNAPP WMS, SAP EWM, RFID integration</li>
+                    <li>Excel dashboards, Power BI, KPI reporting</li>
+                    <li>Hardware diagnostics & repair, ICT supply</li>
+                    <li>SEO, Google Business Profile, social media growth</li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>Legal & Compliance</h3>
+                <ul>
+                    <li>Commissioner of Oaths – certified copies, affidavits</li>
+                    <li>CSD Registered (MAAA number)</li>
+                    <li>B‑BBEE Level 1 (EME, 51% Black‑owned)</li>
+                    <li>Tax Clearance PIN</li>
+                    <li>Company Registration since 2019</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- WORK EXPERIENCE -->
+        <h2 id="experience">💼 Work Experience</h2>
+        <h3>Legodi and Son (Founder) | 2019 – Present</h3>
+        <ul>
+            <li><strong>School Management Portal:</strong> ASP.NET application with learner/teacher portals, document repository, assignment submission, grade tracking, real‑time messaging.</li>
+            <li><strong>Restaurant Ordering System:</strong> Online ordering, table booking, payment gateway integration, order dashboard.</li>
+            <li><strong>Moletsi Council Website:</strong> ASP.NET site with admin dashboard, document library, event calendar – reduced admin queries by 40%.</li>
+            <li><strong>Social Media Growth:</strong> Grew Facebook page to 35,604 followers, 11M reach in 7 months.</li>
+            <li><strong>ICT Hardware Supply & Repairs:</strong> Registered supplier of computers/laptops; on‑site and remote repair services.</li>
+        </ul>
+
+        <h3>United Pharmaceutical Distributors | 2022 – Nov 2025</h3>
+        <ul>
+            <li>Led 16 direct reports in GMP‑compliant inbound logistics – 99.8% inventory accuracy.</li>
+            <li>Trained 100+ staff on KNAPP WMS; reduced operational errors by 35%.</li>
+            <li>Resolved ASP.NET/RFID interface issues between KNAPP and scanning hardware.</li>
+            <li>Generated nightly Excel dashboards (PivotTables, Power Query) for management.</li>
+            <li>Co‑developed WMS migration requirements and trained managers on SAP EWM.</li>
+        </ul>
+
+        <h3>Big Time Strategic Consultants | 2015 – 2016</h3>
+        <ul>
+            <li>Documented requirements for HRIS and government web portals.</li>
+            <li>Identified 15+ process gaps through stakeholder interviews.</li>
+            <li>Supported UAT and created user manuals for non‑technical staff.</li>
+        </ul>
+
+        <!-- PROJECTS SECTION -->
+        <h2 id="projects">📁 Live Projects (ASP.NET)</h2>
+        <div class="project-grid">
+            <div class="card">
+                <strong>🏫 School Management Portal</strong>
+                <p>Learner portal, teacher portal, document repository, assignment submission, grade tracking, real‑time messaging.</p>
+                <span style="font-size:0.8rem; color:#e67e22;">Tech: ASP.NET, C#, SQL Server, IIS</span>
+                <br><a href="#" class="button">Demo available</a>
+            </div>
+            <div class="card">
+                <strong>🍕 Restaurant Ordering System</strong>
+                <p>Online ordering, table booking, payment gateway (PayPal/Stripe), order dashboard for owner.</p>
+                <span style="font-size:0.8rem; color:#e67e22;">Tech: ASP.NET, C#, SQL Server, Bootstrap</span>
+                <br><a href="#" class="button">Demo available</a>
+            </div>
+            <div class="card">
+                <strong>🏛️ Moletsi Council Website</strong>
+                <p>Admin dashboard, document library, event calendar, social feeds – 40% fewer admin queries.</p>
+                <span style="font-size:0.8rem; color:#e67e22;">Tech: ASP.NET, C#, SQL Server, IIS</span>
+                <br><a href="#" class="button">Archived proof</a>
+            </div>
+        </div>
+
+        <!-- BUSINESS SERVICES (LEGODI AND SON) -->
+        <h2 id="services">🔧 Legodi and Son – Full ICT Services</h2>
+        <div class="service-grid">
+            <div class="card"><strong>💻 Custom Software</strong><br>ASP.NET web apps – school portals, ordering systems, council websites.</div>
+            <div class="card"><strong>🖥️ Hardware Supply</strong><br>Registered supplier – computers, laptops, peripherals, networking.</div>
+            <div class="card"><strong>🔧 Repairs & Support</strong><br>On‑site/remote diagnostics, hardware repair, software troubleshooting.</div>
+            <div class="card"><strong>📈 Digital Marketing</strong><br>Social media management (11M reach proof), SEO, Google lead generation.</div>
+            <div class="card"><strong>⚖️ Legal Documentation</strong><br>Commissioner of Oaths – affidavits, certified copies, declarations.</div>
+            <div class="card"><strong>📋 ICT Consulting</strong><br>Digital transformation, tender readiness, project management.</div>
+        </div>
+
+        <!-- PRICING SECTION -->
+        <h2 id="pricing">💰 Pricing & Salary Expectations</h2>
+        <h3>Personal Job Search – Monthly Salary Targets (ZAR)</h3>
         <table>
-            <tr><th>Differentiator</th><th>What It Means for You</th></tr>
-            <tr><td>Registered ICT supplier</td><td>CSD, B‑BBEE Level 1, tax clearance – tender ready.</td></tr>
-            <tr><td>Proven scale</td><td>11M reach – we grow communities.</td></tr>
-            <tr><td>Technical depth</td><td>ASP.NET, SQL Server, IIS – enterprise grade.</td></tr>
-            <tr><td>Legal authority</td><td>Commissioner of Oaths – certify documents in‑house.</td></tr>
-            <tr><td>Multiple clients</td><td>We serve councils, municipalities, NGOs – not dependent on one.</td></tr>
+            <tr><th>Role</th><th>Target</th><th>Minimum</th></tr>
+            <tr><td>Senior ASP.NET Developer</td><td>R75k – R85k</td><td>R65k</td></tr>
+            <tr><td>Full‑Stack C# Developer</td><td>R80k – R90k</td><td>R70k</td></tr>
+            <tr><td>ICT Project Manager</td><td>R70k – R85k</td><td>R60k</td></tr>
+            <tr><td>WMS Systems Analyst</td><td>R75k – R90k</td><td>R65k</td></tr>
         </table>
 
-        <h2>📎 Compliance & Tender Documents</h2>
+        <h3>Business / Tender Pricing (excl. VAT)</h3>
+        <table>
+            <tr><th>Service</th><th>Price Range</th></tr>
+            <tr><td>School Management Portal</td><td>R60k – R150k</td></tr>
+            <tr><td>Restaurant Ordering System</td><td>R20k – R50k</td></tr>
+            <tr><td>Council / NGO Website (ASP.NET)</td><td>R45k – R120k</td></tr>
+            <tr><td>Custom Web Application</td><td>R80k – R350k</td></tr>
+            <tr><td>Social Media Management (monthly)</td><td>R10k – R15k</td></tr>
+            <tr><td>Laptop Repair (labour)</td><td>R250 – R600</td></tr>
+            <tr><td>ICT Hardware (desktop)</td><td>R4,500 – R7,000</td></tr>
+        </table>
+
+        <h3>Hourly/Daily Rates (for Tender Panels)</h3>
+        <table>
+            <tr><th>Role</th><th>Hourly (ZAR)</th><th>Daily (ZAR)</th></tr>
+            <tr><td>Senior ASP.NET Developer</td><td>R450 – R550</td><td>R3,600 – R4,400</td></tr>
+            <tr><td>ICT Project Manager</td><td>R500 – R600</td><td>R4,000 – R4,800</td></tr>
+            <tr><td>Hardware Technician</td><td>R300 – R400</td><td>R2,400 – R3,200</td></tr>
+        </table>
+
+        <!-- COMPLIANCE -->
+        <h2>📎 Tender Ready – Compliance Documents</h2>
         <ul>
-            <li>CSD Registration: MAAA1286141</li>
+            <li>CSD Registration: [Your MAAA number]</li>
             <li>Valid Tax Clearance PIN</li>
-            <li>B‑BBEE Sworn Affidavit (Level 1, 100% Black‑owned)</li>
-            <li>Company Registration (2019)</li>
+            <li>B‑BBEE Sworn Affidavit (Level 1, 51% Black‑owned)</li>
+            <li>Company Registration (CIPC, since 2019)</li>
             <li>Commissioner of Oaths Certificate</li>
+            <li>Registered ICT Hardware Supplier</li>
         </ul>
 
-        <div class="contact">
-            <h3 style="color:white;">📞 Let’s Work Together</h3>
-            <p><strong>Manass Legodi, Founder & Commissioner of Oaths</strong><br>
-            📞 072 607 5698 | ✉️ <a href="mailto:">thabo.mlegodi@gmail.com</a> | 🔗 <a href="#">www.linkedin.com/in/manass-legodi-09aa0060</a></p>
+        <!-- CONTACT -->
+        <div class="contact" id="contact">
+            <h3 style="color:white; margin-top:0;">📞 Contact</h3>
+            <p><strong>Manass Legodi – Founder & Commissioner of Oaths</strong><br>
+            📞 [Your Phone] | ✉️ <a href="mailto:[Your Email]">[Your Email]</a> | 🔗 <a href="#">LinkedIn</a><br>
+            🌐 GitHub: <a href="#" style="color:#f39c12;">github.com/yourusername/legodi-son-portfolio</a></p>
+            <p><em>“We build software, supply hardware, and grow communities.”</em></p>
         </div>
         <div class="footer">
-            Registered ICT supplier | Digital solutions | Commissioner of Oaths
+            Legodi and Son – Registered ICT supplier | Since 2019 | B‑BBEE Level 1 | Commissioner of Oaths
         </div>
     </div>
 </div>
