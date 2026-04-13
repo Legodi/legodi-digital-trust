@@ -326,7 +326,7 @@
         <!-- COMPLIANCE -->
         <h2>📎 Tender Ready – Compliance Documents</h2>
         <ul>
-            <li>CSD Registration: [Your MAAA number]</li>
+            <li>CSD Registration: MAAA1286141</li>
             <li>Valid Tax Clearance PIN</li>
             <li>B‑BBEE Sworn Affidavit (Level 1, 51% Black‑owned)</li>
             <li>Company Registration (CIPC, since 2019)</li>
@@ -338,8 +338,8 @@
         <div class="contact" id="contact">
             <h3 style="color:white; margin-top:0;">📞 Contact</h3>
             <p><strong>Manass Legodi – Founder & Commissioner of Oaths</strong><br>
-            📞 [Your Phone] | ✉️ <a href="mailto:[Your Email]">[Your Email]</a> | 🔗 <a href="#">LinkedIn</a><br>
-            🌐 GitHub: <a href="#" style="color:#f39c12;">github.com/yourusername/legodi-son-portfolio</a></p>
+            📞 072 607 5698 | ✉️ <a href="mailto:[Your Email]">thabo.mlegodi@gmail.com</a> | 🔗 <a href="#">www.linkedin.com/in/manass-legodi-09aa0060</a><br>
+            🌐 GitHub: <a href="#" style="color:#f39c12;">github.com/Legodi/legodi-son-portfolio</a></p>
             <p><em>“We build software, supply hardware, and grow communities.”</em></p>
         </div>
         <div class="footer">
