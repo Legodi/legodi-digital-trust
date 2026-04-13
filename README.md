@@ -291,38 +291,6 @@
             <div class="card"><strong>⚖️ Legal Documentation</strong><br>Commissioner of Oaths – affidavits, certified copies, declarations.</div>
             <div class="card"><strong>📋 ICT Consulting</strong><br>Digital transformation, tender readiness, project management.</div>
         </div>
-
-        <!-- PRICING SECTION -->
-        <h2 id="pricing">💰 Pricing & Salary Expectations</h2>
-        <h3>Personal Job Search – Monthly Salary Targets (ZAR)</h3>
-        <table>
-            <tr><th>Role</th><th>Target</th><th>Minimum</th></tr>
-            <tr><td>Senior ASP.NET Developer</td><td>R75k – R85k</td><td>R65k</td></tr>
-            <tr><td>Full‑Stack C# Developer</td><td>R80k – R90k</td><td>R70k</td></tr>
-            <tr><td>ICT Project Manager</td><td>R70k – R85k</td><td>R60k</td></tr>
-            <tr><td>WMS Systems Analyst</td><td>R75k – R90k</td><td>R65k</td></tr>
-        </table>
-
-        <h3>Business / Tender Pricing (excl. VAT)</h3>
-        <table>
-            <tr><th>Service</th><th>Price Range</th></tr>
-            <tr><td>School Management Portal</td><td>R60k – R150k</td></tr>
-            <tr><td>Restaurant Ordering System</td><td>R20k – R50k</td></tr>
-            <tr><td>Council / NGO Website (ASP.NET)</td><td>R45k – R120k</td></tr>
-            <tr><td>Custom Web Application</td><td>R80k – R350k</td></tr>
-            <tr><td>Social Media Management (monthly)</td><td>R10k – R15k</td></tr>
-            <tr><td>Laptop Repair (labour)</td><td>R250 – R600</td></tr>
-            <tr><td>ICT Hardware (desktop)</td><td>R4,500 – R7,000</td></tr>
-        </table>
-
-        <h3>Hourly/Daily Rates (for Tender Panels)</h3>
-        <table>
-            <tr><th>Role</th><th>Hourly (ZAR)</th><th>Daily (ZAR)</th></tr>
-            <tr><td>Senior ASP.NET Developer</td><td>R450 – R550</td><td>R3,600 – R4,400</td></tr>
-            <tr><td>ICT Project Manager</td><td>R500 – R600</td><td>R4,000 – R4,800</td></tr>
-            <tr><td>Hardware Technician</td><td>R300 – R400</td><td>R2,400 – R3,200</td></tr>
-        </table>
-
         <!-- COMPLIANCE -->
         <h2>📎 Tender Ready – Compliance Documents</h2>
         <ul>
